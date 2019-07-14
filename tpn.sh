@@ -26,7 +26,7 @@ function tpn_tab_three(){
   str+=" echo \"----> Using ruby 2.3.0\";"
   str+=" rvm use 2.3.0;"
   str+=" echo \"----> Starting elastic search\";"
-  str+=" sudo service elastic search start;"
+  str+=" sudo service elasticsearch start;"
   str+=" echo \"----> Git status\";"
   str+=" git status;"
   echo $str
